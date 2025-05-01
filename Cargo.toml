@@ -1,0 +1,13 @@
+[package]
+name = "scut-notice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+chrono = "0.4"
+reqwest = { version = "0.11", features = ["json"] }
+scraper = "0.16"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.28", features = ["full", "macros"] }
